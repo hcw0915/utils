@@ -8,10 +8,8 @@ module.exports = {
 		'plugin:react/recommended',
 		'plugin:react-hooks/recommended',
 		'plugin:import/recommended',
-		'plugin:jsx-a11y/recommended',
 		'plugin:@typescript-eslint/recommended',
-		'eslint-config-prettier',
-		'plugin:storybook/recommended'
+		'eslint-config-prettier'
 	],
 	settings: {
 		react: {
@@ -33,7 +31,6 @@ module.exports = {
 	plugins: ['@typescript-eslint', 'simple-import-sort', 'react', 'prettier'],
 	rules: {
 		'prettier/prettier': 'error',
-		'@typescript-eslint/camelcase': 'off',
 		'react/react-in-jsx-scope': 'off',
 		'@typescript-eslint/no-empty-interface': 'off',
 		// simple import sort

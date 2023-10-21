@@ -1,4 +1,4 @@
-const { isFieldEmpty, isValidEmail } = require('../utils/validation.js')
+const { isFieldEmpty, isValidEmail } = require('../libs/validation.js')
 
 describe('Form Validation', () => {
 	test('檢查是否正確地檢測空值', () => {

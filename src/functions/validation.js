@@ -7,12 +7,11 @@ const isFieldEmpty = (value) => {
 	return value.trim() === ''
 }
 
-// Test isFieldEmpty
-// const inputValue1 = '' // 空字串
-// const inputValue2 = 'Hello' // 非空字串
+// input: ''
+// output: true
 
-// isFieldEmpty(inputValue1) // 輸出: true
-// isFieldEmpty(inputValue2) // 輸出: false
+// input: 'Hello'
+// output: false
 
 // -----------------------------------------------------------------
 
@@ -26,12 +25,11 @@ const isValidEmail = (email) => {
 	return emailRegex.test(email)
 }
 
-// Test isValidEmail
-// const validEmail = 'test@example.com' // 有效的電子郵件
-// const invalidEmail = 'invalid_email' // 無效的電子郵件
+// input: 'test@example.com'
+// output: true
 
-// isValidEmail(validEmail) // 輸出: true
-// isValidEmail(invalidEmail) // 輸出: false
+// input: 'invalid_email'
+// output: false
 
 // -----------------------------------------------------------------
 

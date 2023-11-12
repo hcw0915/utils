@@ -1,4 +1,4 @@
-import { useEffect, useState, KeyboardEvent } from 'react'
+import { useEffect, useState } from 'react'
 
 /**
  * Custom React Hook to detect the currently pressed key.

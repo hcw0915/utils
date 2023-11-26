@@ -40,7 +40,7 @@ npm install
 
 ### Updated Log
 
--
+- 23/11/26 - js - isInViewport 檢查元素是否在視窗可視範圍內
 - 23/11/04 - hooks - useCopyToClipboard 複製剪貼版使用
 - 23/10/29 - js - lengthCheck 變數長度確認
 - 23/10/27 - js - validatePassword 密碼驗證(大寫、小寫、數字)

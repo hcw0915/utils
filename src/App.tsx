@@ -1,12 +1,14 @@
-import './App.css'
-import { CopyToClipboard } from './hooks/useCopyToClipboard'
+import "./App.css";
+import { CopyToClipboard } from "./hooks/useCopyToClipboard";
+import { TextEditor } from "./hooks/usePrevious";
 
 function App() {
-	return (
-		<>
-			<CopyToClipboard />
-		</>
-	)
+  return (
+    <>
+      <CopyToClipboard />
+      <TextEditor />
+    </>
+  );
 }
 
-export default App
+export default App;

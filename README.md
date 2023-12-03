@@ -40,6 +40,7 @@ npm install
 
 ### Updated Log
 
+- 23/12/03 - hooks - 可以儲存一個值的上一個狀態
 - 23/11/26 - js - isInViewport 檢查元素是否在視窗可視範圍內
 - 23/11/04 - hooks - useCopyToClipboard 複製剪貼版使用
 - 23/10/29 - js - lengthCheck 變數長度確認
